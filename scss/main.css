@@ -17,6 +17,11 @@
   margin-bottom: -4em;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .jumbotron {
   background-image: url(../img/ovejasthebarn.jpeg);
   background-size: cover;
@@ -28,7 +33,7 @@
 
 .jumbotron h1 {
   font-family: "Alegreya SC", serif;
-  font-size: 3em;
+  font-size: 3.2em;
   color: rgba(230, 225, 208, 0.97);
   text-shadow: 0 0 4px rgba(159, 154, 119, 0.606);
 }
@@ -92,6 +97,7 @@
   height: 450px;
   margin-top: 3em;
   margin-bottom: 10em;
+  border-radius: 0.8em;
 }
 
 .nleft:hover {
@@ -101,8 +107,6 @@
 .nright h2 {
   font-size: 2rem;
   margin-top: 2em;
-  margin-bottom: -2em;
-  padding: 1em;
   color: rgb(20, 117, 20);
   font-family: "Alegreya SC", serif;
 }
@@ -111,7 +115,6 @@
   font-size: 1.3em;
   color: rgb(92, 142, 92);
   font-family: "Neucha", cursive;
-  margin: 3em;
   text-align: justify;
 }
 
