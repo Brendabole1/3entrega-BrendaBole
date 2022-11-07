@@ -20,7 +20,7 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin: 3px;
+  margin-right: 3px;
 }
 
 .jumbotron {
