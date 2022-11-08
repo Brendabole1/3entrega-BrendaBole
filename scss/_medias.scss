@@ -99,6 +99,7 @@
     object-fit: cover;
 }
 
+
 .galery--item:nth-child(2) {
     grid-row-start: span 2;
 
@@ -137,6 +138,7 @@
 .galery--item>img:hover {
 
     filter: contrast(2.2);
+    border-radius: 0.5em;
 }
 
 .datos {

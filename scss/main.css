@@ -98,7 +98,7 @@
   height: 450px;
   margin-top: 3em;
   margin-bottom: 10em;
-  border-radius: 0.8em;
+  border-radius: 0.5em;
 }
 
 .nleft:hover {
@@ -125,6 +125,7 @@
 }
 
 .card-img-top {
+  border-radius: 0.5em;
   -webkit-animation: fade-in-top 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in-top 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
@@ -133,12 +134,14 @@
 }
 
 .efecto {
+  border-radius: 0.5em;
   -webkit-animation: fade-in-top 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in-top 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   filter: opacity(2.5);
 }
 .efecto:hover {
   filter: brightness(1.5);
+  border-radius: 0.5em;
 }
 
 .card-eventos {
@@ -581,6 +584,7 @@ footer {
 
 .galery--item > img:hover {
   filter: contrast(2.2);
+  border-radius: 0.5em;
 }
 
 .datos {
